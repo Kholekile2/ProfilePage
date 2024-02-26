@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProfilePage"
+   
+             x:Class="ProfilePage.LoadAndSave"
+             Title="LoadAndSave"
+             Shell.NavBarIsVisible="false" x:DataType="local:LoadAndSave">
+    <VerticalStackLayout>
+        <Label 
+            Text="Sign up"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Select Profile Photo" Command="{Binding SelectProfilePhotoCommand}"/>
+        <Image x:Name="ProfilePhoto"/>
+
+        <Entry x:Name="NameEntry" Placeholder="Name" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="SurnameEntry" Placeholder="Surname" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="EmailAddressEntry" Placeholder="Email Address" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="BioEntry" Placeholder="Bio" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+        <StackLayout x:Name="profileStackLayout" Margin="0,20,0,0"></StackLayout>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Button Text="Save" Command="{Binding SaveCommand}" IsEnabled="{Binding SaveButtonEnabled}" Margin="5,5,5,5"/>
+            <Button Text="Load" Command="{Binding LoadCommand}" IsEnabled="{Binding LoadButtonEnabled}" Margin="5,5,5,5" />
+            <Button Text="Delete" Command="{Binding DeleteProfileCommand}" CommandParameter="{Binding SelectedProfile}" Margin="5,5,5,5" />
+        </StackLayout>
+
+        <Label Text="{Binding OutputText}"/>
+
+        <ListView ItemsSource="{Binding Profiles}" SelectedItem="{Binding SelectedProfile}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </VerticalStackLayout>
+</ContentPage>
