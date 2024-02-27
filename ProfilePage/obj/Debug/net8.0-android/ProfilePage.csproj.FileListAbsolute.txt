@@ -1038,3 +1038,4 @@ C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-android\android\asset
 C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-android\resizetizer\r\drawable\bridge_logo.png
 C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-android\android\src\crc645d80431ce5f73f11\MauiCarouselRecyclerView_CarouselViewOnGlobalLayoutListener.java
 C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-android\ProfilePage.sourcelink.json

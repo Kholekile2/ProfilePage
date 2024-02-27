@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\NetProjects\\ProfilePageSln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|c:\\netprojects\\profilepagesln\\profilepage\\loadandsave.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|solutionrelative:profilepage\\loadandsave.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|c:\\netprojects\\profilepagesln\\profilepage\\loadandsave.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|solutionrelative:profilepage\\loadandsave.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|c:\\netprojects\\profilepagesln\\profilepage\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|solutionrelative:profilepage\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|c:\\netprojects\\profilepagesln\\profilepage\\loadandsave.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|solutionrelative:profilepage\\loadandsave.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|c:\\netprojects\\profilepagesln\\profilepage\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|solutionrelative:profilepage\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|c:\\netprojects\\profilepagesln\\profilepage\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AB24A3-B072-44F2-BD0B-27E2BEDE1597}|ProfilePage\\ProfilePage.csproj|solutionrelative:profilepage\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\Profile.cs",
               "RelativeDocumentMoniker": "ProfilePage\\Profile.cs",
               "ToolTip": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\Profile.cs",
               "RelativeToolTip": "ProfilePage\\Profile.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBIAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T09:04:04.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoadAndSave.xaml.cs",
               "DocumentMoniker": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\LoadAndSave.xaml.cs",
               "RelativeDocumentMoniker": "ProfilePage\\LoadAndSave.xaml.cs",
               "ToolTip": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\LoadAndSave.xaml.cs",
               "RelativeToolTip": "ProfilePage\\LoadAndSave.xaml.cs",
-              "ViewState": "AQIAAMcAAAAAAAAAAAAAAHEAAAAPAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwDgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T12:27:44.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T12:27:44.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoadAndSave.xaml",
               "DocumentMoniker": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\LoadAndSave.xaml",
               "RelativeDocumentMoniker": "ProfilePage\\LoadAndSave.xaml",
               "ToolTip": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\LoadAndSave.xaml",
               "RelativeToolTip": "ProfilePage\\LoadAndSave.xaml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAnwBgAAABAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-02-19T12:27:25.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "ProfilePage\\MainPage.xaml.cs",
               "ToolTip": "C:\\NetProjects\\ProfilePageSln\\ProfilePage\\MainPage.xaml.cs",
               "RelativeToolTip": "ProfilePage\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T07:49:47.615Z"
             }

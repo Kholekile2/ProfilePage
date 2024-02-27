@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProfilePage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3cb7bfd7e329921af25a687bb139f72176fa2378")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProfilePage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProfilePage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

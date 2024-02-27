@@ -44,6 +44,18 @@ namespace ProfilePage
             }
         }
 
+        private string _name;
+
+        public string Name
+        {
+            get { return _name; }
+            set
+            {
+                _name = value;
+                OnPropertyChanged();
+            }
+        }
+
         private Profile _profile;
 
         public LoadAndSave()
@@ -134,6 +146,37 @@ namespace ProfilePage
                 DisplayAlert("Error", "Failed to save profile: " + ex.Message, "OK");
             }
         }
+
+        private bool _saveButtonEnabled = true;
+
+        public bool SaveButtonEnabled
+        {
+            get { return _saveButtonEnabled; } 
+            
+            set {
+                SaveButtonEnabled = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private bool _loadButtonEnabled = true;
+
+        public bool LoadButtonEnabled
+        {
+            get => _loadButtonEnabled;
+        }
+
+        private string _OutputText;
+
+        public string OutputText
+        {
+            get {  return _OutputText; }
+            set { OutputText = value; 
+                
+                OnPropertyChanged(); 
+            }
+            
+        } 
 
         private Profile _selectedProfile;
 

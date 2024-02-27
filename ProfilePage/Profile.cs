@@ -16,8 +16,6 @@ namespace ProfilePage
 
         public string Bio {  get; set; }
 
-        public string ProfilePhoto { get; set; }
-
     }
 }
 

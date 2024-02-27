@@ -300,3 +300,4 @@ C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-maccatalyst\maccataly
 C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ProfilePage.genruntimeconfig.cache
 C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\ProfilePage.dll
 C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ProfileP.14F6C24A.Up2Date
+C:\NetProjects\ProfilePageSln\ProfilePage\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ProfilePage.sourcelink.json

@@ -10,9 +10,10 @@
         <Label 
             Text="Sign up"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            Margin="0,5,0,0"/>
 
-        <Button Text="Select Profile Photo" Command="{Binding SelectProfilePhotoCommand}"/>
+        <Button Text="Select Profile Photo" Command="{Binding SelectProfilePhotoCommand}" Margin="100,50,100,50"/>
         <Image x:Name="ProfilePhoto"/>
 
         <Entry x:Name="NameEntry" Placeholder="Name" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
@@ -21,7 +22,7 @@
         <Entry x:Name="BioEntry" Placeholder="Bio" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
         <StackLayout x:Name="profileStackLayout" Margin="0,20,0,0"></StackLayout>
 
-        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" Margin="150,50,150,30">
             <Button Text="Save" Command="{Binding SaveCommand}" IsEnabled="{Binding SaveButtonEnabled}" Margin="5,5,5,5"/>
             <Button Text="Load" Command="{Binding LoadCommand}" IsEnabled="{Binding LoadButtonEnabled}" Margin="5,5,5,5" />
             <Button Text="Delete" Command="{Binding DeleteProfileCommand}" CommandParameter="{Binding SelectedProfile}" Margin="5,5,5,5" />
